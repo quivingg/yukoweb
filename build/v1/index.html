@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YUKO - Creative Portfolio</title>
+  <meta name="description" content="Yuko's creative portfolio - Innovate. Inspire. Create." />
+  <meta name="author" content="Yuko" />
+
+  <meta property="og:title" content="YUKO - Creative Portfolio" />
+  <meta property="og:description" content="Yuko's creative portfolio - Innovate. Inspire. Create." />
+  <meta property="og:type" content="website" />
+
+  <style>
+    /* Custom animations */
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fade-in-up {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fade-in-delay {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    @keyframes spin-slow {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .animate-fade-in {
+      animation: fade-in 0.8s ease-out forwards;
+    }
+
+    .animate-fade-in-up {
+      animation: fade-in-up 0.8s ease-out forwards;
+    }
+
+    .animate-fade-in-delay {
+      animation: fade-in-delay 0.8s ease-out 0.3s forwards;
+      opacity: 0;
+    }
+
+    .animate-float {
+      animation: float 3s ease-in-out infinite;
+    }
+
+    .animate-spin-slow {
+      animation: spin-slow 20s linear infinite;
+    }
+
+    .animation-delay-200 {
+      animation-delay: 200ms;
+    }
+
+    /* Smooth scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Loading screen */
+    body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      overflow-x: hidden;
+    }
+
+    /* Prevent flash of unstyled content */
+    .dark {
+      color-scheme: dark;
+    }
+  </style>
+  <script type="module" crossorigin src="/assets/index-QwGIY97u.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-D7kPJO3x.css">
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+
+</html>
